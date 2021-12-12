@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:layout_sample/grid_view_page.dart';
 import 'package:layout_sample/sliver_app_bar_page.dart';
+import 'package:layout_sample/shrinkable_footer_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -58,6 +59,6 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return const Scaffold(body: SliverAppBarPage());
+    return const Scaffold(body: ShrinkableFooterPage());
   }
 }
