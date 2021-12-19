@@ -3,6 +3,12 @@ import 'package:layout_sample/grid_view_page.dart';
 import 'package:layout_sample/sliver_app_bar_page.dart';
 import 'package:layout_sample/shrinkable_footer_page.dart';
 import 'package:layout_sample/responsive_design_page.dart';
+import 'package:layout_sample/hero_page.dart';
+import 'package:layout_sample/transition_page.dart';
+import 'package:layout_sample/open_container_page.dart';
+import 'package:layout_sample/shared_axis_transition_page.dart';
+import 'package:layout_sample/animation_controller_page.dart';
+import 'package:layout_sample/tween_staggered_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -60,6 +66,6 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return const Scaffold(body: ResponsiveDesignPage());
+    return const Scaffold(body: TweenStaggeredPage());
   }
 }
